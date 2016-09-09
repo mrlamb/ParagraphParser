@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParagraphParserIntoDictiona
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{FF8C55B9-806D-4EBE-B6CC-1A80C0F9A9A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{F5BF762F-B7FD-4DD3-B358-83B9EBABDAEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FF8C55B9-806D-4EBE-B6CC-1A80C0F9A9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF8C55B9-806D-4EBE-B6CC-1A80C0F9A9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF8C55B9-806D-4EBE-B6CC-1A80C0F9A9A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5BF762F-B7FD-4DD3-B358-83B9EBABDAEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5BF762F-B7FD-4DD3-B358-83B9EBABDAEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5BF762F-B7FD-4DD3-B358-83B9EBABDAEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5BF762F-B7FD-4DD3-B358-83B9EBABDAEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace ParagraphParserIntoDictionary
 {
-    public class ParagraphParser : Dictionary<string, List<String>>
+    public class ParagraphParser :SortedDictionary<string, List<String>>
     {
         public ParagraphParser(string WallOfText)
         {
-            string[] split = WallOfText.Split(new char[] { ',', '!', ' ', '.' },
+            string[] split = WallOfText.Split(new char[] { ',', '!', ' ', '.',
+                '"','-','*','[',']','#','(',')',':',';','_','?','/','\\' },
                 StringSplitOptions.RemoveEmptyEntries);
             for (int i = 0; i < split.Length; i++)
             {
